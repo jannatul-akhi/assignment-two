@@ -423,4 +423,28 @@
         gap: 20px;
 
     }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 2%;
+        margin-bottom: 115px;
+    }
+    .feature-list {
+        flex-direction: column;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+    }
+    .sponsor-image{
+        
+        width: 10%;
+    }
 }
